@@ -14,7 +14,8 @@
   "dependencies": {
     "@strapi/plugin-cloud": "5.10.2",
     "@strapi/plugin-users-permissions": "5.10.2",
-    "@strapi/strapi": "5.10.2",
+    "@strapi/strapi": "^4.x.x",
+    "@strapi/typescript-utils": "^4.x.x",
     "better-sqlite3": "11.3.0",
     "fs-extra": "^10.0.0",
     "mime-types": "^2.1.27",
@@ -24,10 +25,10 @@
     "styled-components": "^6.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20",
+    "@types/node": "^18.x.x",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "typescript": "^5"
+    "typescript": "^5.x.x"
   },
   "engines": {
     "node": ">=18.0.0 <=22.x.x",
