@@ -4,4 +4,6 @@
 
 import { factories } from '@strapi/strapi'
 
-export default factories.createCoreController<any>('api::blog-page.blog-page');
+export default factories.createCoreController('api::blog-page.blog-page', ({ strapi }) => ({
+  // Your custom controller methods can go here
+}));
