@@ -12,16 +12,17 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "5.10.2",
-    "@strapi/plugin-users-permissions": "5.10.2",
-    "@strapi/strapi": "^4.x.x",
+    "@strapi/strapi": "4.25.20",
+    "@strapi/plugin-cloud": "4.25.20",
+    "@strapi/plugin-i18n": "4.25.20",
+    "@strapi/plugin-users-permissions": "4.25.20",
     "@strapi/typescript-utils": "^4.x.x",
     "better-sqlite3": "11.3.0",
     "fs-extra": "^10.0.0",
     "mime-types": "^2.1.27",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-router-dom": "^6.0.0",
+    "react-router-dom": "5.3.4",
     "styled-components": "^6.0.0"
   },
   "devDependencies": {
