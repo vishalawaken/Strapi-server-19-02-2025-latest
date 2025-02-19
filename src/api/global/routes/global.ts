@@ -1,5 +1,5 @@
 /**
- * global router.
+ * global router
  */
 
 import { factories } from '@strapi/strapi';
