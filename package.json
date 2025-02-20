@@ -10,16 +10,20 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@strapi/strapi": "4.15.0",
     "@strapi/plugin-i18n": "4.15.0",
     "@strapi/plugin-users-permissions": "4.15.0",
-    "@strapi/strapi": "4.15.0",
-    "ajv": "^6.12.6",
-    "pg": "8.8.0",
     "react-router-dom": "5.3.4",
-    "styled-components": "5.3.3"
+    "styled-components": "5.3.3",
+    "pg": "8.8.0",
+    "ajv": "6.12.6"
   },
   "devDependencies": {
     "@types/node": "^18.x.x",
+    "@types/pluralize": "^0.0.33",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/styled-components": "^5.1.26",
     "typescript": "5.0.4"
   },
   "author": {
