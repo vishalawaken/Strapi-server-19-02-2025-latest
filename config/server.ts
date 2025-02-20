@@ -2,6 +2,7 @@ interface Env {
   (key: string, defaultValue?: any): string | number | boolean;
   int(key: string, defaultValue?: number): number;
   bool(key: string, defaultValue?: boolean): boolean;
+  array(key: string, defaultValue?: any[]): any[];
 }
 
 export default ({ env }: { env: Env }) => ({
