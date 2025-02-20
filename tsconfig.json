@@ -1,5 +1,4 @@
 {
-  "extends": "@strapi/typescript-utils/tsconfigs/server",
   "compilerOptions": {
     "outDir": "dist",
     "rootDir": ".",
@@ -8,7 +7,18 @@
     "jsx": "react",
     "module": "Node16",
     "moduleResolution": "Node16",
-    "baseUrl": "."
+    "baseUrl": ".",
+    "target": "ES2021",
+    "lib": ["ES2021", "DOM"],
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": [
     "./",
